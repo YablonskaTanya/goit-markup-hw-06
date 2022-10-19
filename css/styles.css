@@ -880,11 +880,18 @@ textarea {
 }
 
 .checkbox-user:checked + .icon-modal-checkbox {
-  background-image: url(../images/icon-check.svg);
   background-color: var(--button-accent);
   border-color: var(--button-accent);
   background-size: contain;
   background-origin: border-box;
+}
+
+.icon-check {
+  position: absolute;
+  top: 4px;
+  left: 19px;
+  fill: white;
+  cursor: pointer;
 }
 
 .checkbox-text {
